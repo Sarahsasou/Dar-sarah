@@ -1,19 +1,608 @@
+
+
+
+
+Oui ❤️ Je vois tout : ton site fonctionne maintenant 🎉
+La page s’affiche correctement à l’adresse GitHub Pages.
+
+👉 Ne supprime surtout pas le contenu du fichier. Il est bien enregistré sous index.html.
+
+Maintenant, on peut passer à l’étape suivante : rendre Boutique Dar Sarah beaucoup plus jolie et élégante ✨ (fond, couleurs, présentation du livre, bouton, etc.).
+
+Pour commencer, ferme simplement le petit menu avec les ⋯ en appuyant à côté. Puis je te guiderai étape par étape pour embellir la page sans casser ce qui fonctionne. 🌸
+
+
+C'est fait 
+
+Parfait ❤️👏
+
+Sur ta dernière capture, je vois bien index.html avec le petit menu ouvert.
+
+👉 Maintenant, ne touche plus au contenu du fichier. Il est déjà en ligne et ton site s’affiche correctement.
+
+La prochaine étape est de vérifier que le bouton « Découvrir » fonctionne comme prévu.
+
+Appuie sur « Découvrir » sur ton site, puis envoie-moi une capture de ce qui se passe. 🌸
+
+On va ensuite rendre la boutique plus jolie et ajouter les vrais produits, tranquillement étape par étape. 💕
+
+
+Rends la boutique beaucoup plus jolie et professionnelle
+
+Création d’image interrompue
+
+Le bouton ne s'ouvre pas 
+
+Oui ❤️ Je vois le problème : le bouton “Découvrir” ne s’ouvre pas parce qu’il n’a aucune destination dans ton code.
+
+Actuellement tu as :
+
+<button>Découvrir</button>
+Un simple <button> ne fait rien tant qu'on ne lui donne pas une action.
+
+🌸 On va le rendre fonctionnel
+Dans GitHub, retourne sur Modifier le fichier et remplace uniquement cette ligne :
+
+<button>Découvrir</button>
+par :
+
+<a href="#livre">Découvrir</a>
+Puis, sur la ligne :
+
+<h2>Mon livre</h2>
+remplace-la par :
+
+<h2 id="livre">Mon livre</h2>
+Ensuite valide avec « Valider les modifications… ».
+
+💡 Le bouton « Découvrir » deviendra un vrai lien.
+
+Mais pour rendre Boutique Dar Sarah vraiment professionnelle, je peux aussi te préparer une nouvelle page complète avec :
+
+✨ un joli design élégant
+
+🌸 couleurs crème/doré
+
+📚 présentation du livre
+
+🧕 section Abayas & Khamîs
+
+🌺 section Muscs
+
+🛒 boutons « Découvrir » fonctionnels
+
+📱 design adapté au téléphone
+
+💳 une présentation de boutique beaucoup plus professionnelle
+
+Et je peux te donner le code exact à copier-coller dans GitHub, sans que tu aies besoin de savoir coder. ❤️
+
+
+1000077205.jpg
+
+Oui ❤️ Je vois exactement ce qui se passe sur ta capture.
+
+Ton code est correct, mais le lien :
+
+<a href="#livre">Découvrir</a>
+ne peut pas ouvrir une nouvelle page : il renvoie simplement vers la section « Mon livre » qui est déjà sur la même page. C’est pour ça que tu as l’impression que le bouton ne fait rien.
+
+Et puisque tu veux une boutique beaucoup plus jolie et professionnelle, je te conseille de ne pas continuer à bricoler ligne par ligne. 🌸
+
+✨ Je te propose de refaire la page complètement
+On peut avoir :
+
+🤎 un design crème, beige et doré
+
+🌙 un joli en-tête Dar Sarah | دار سارة
+
+📚 une vraie carte pour ton livre
+
+🧕 une section Abayas & Khamîs
+
+🌸 une section Muscs
+
+✨ de vrais boutons Découvrir
+
+📱 une présentation adaptée au téléphone
+
+🛍️ une vraie apparence de boutique
+
+🔗 des boutons qui ouvrent réellement les pages/sections correspondantes
+
+Ne supprime rien pour l'instant. ❤️
+
+Sur ta capture, tu es encore dans l'éditeur. Ne valide pas cette modification pour le moment.
+
+Je peux te donner un nouveau code complet prêt à copier-coller, afin que tu remplaces tout le contenu actuel de index.html en une seule fois.
+
+Si tu veux, on fait ça maintenant, étape par étape sur ton téléphone. 🌷
+
+
+Ok
+
+Parfait ❤️🌸 On va faire une vraie transformation de Boutique Dar Sarah.
+
+Étape 1 — remplacer le code
+Tu es actuellement dans l'éditeur de index.html.
+
+1. Sélectionne tout le code actuel et efface-le.
+
+2. Copie-colle exactement tout ce code à la place :
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Boutique Dar Sarah | دار سارة</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      background: #f8f3eb;
+      color: #3f3028;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #4b362f;
+      color: white;
+      text-align: center;
+      padding: 45px 20px;
+    }
+
+    header h1 {
+      font-size: 38px;
+      margin-bottom: 8px;
+      letter-spacing: 1px;
+    }
+
+    header h2 {
+      font-size: 24px;
+      font-weight: normal;
+      margin-bottom: 15px;
+    }
+
+    header p {
+      font-size: 16px;
+      color: #eadccf;
+    }
+
+    nav {
+      background: #fffaf4;
+      text-align: center;
+      padding: 15px 10px;
+      border-bottom: 1px solid #e4d6c8;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      color: #5b4034;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 55px 20px;
+      background: #eee1d2;
+    }
+
+    .hero h2 {
+      font-size: 32px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      max-width: 600px;
+      margin: auto;
+      font-size: 18px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 50px 20px;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 30px;
+      margin-bottom: 30px;
+      color: #4b362f;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 22px;
+    }
+
+    .card {
+      background: white;
+      padding: 28px 22px;
+      border-radius: 16px;
+      text-align: center;
+      box-shadow: 0 5px 18px rgba(70, 50, 40, 0.10);
+      border: 1px solid #eadfd4;
+    }
+
+    .icon {
+      font-size: 42px;
+      margin-bottom: 12px;
+    }
+
+    .card h3 {
+      font-size: 22px;
+      margin-bottom: 10px;
+      color: #4b362f;
+    }
+
+    .card p {
+      margin-bottom: 18px;
+      color: #6c5a50;
+    }
+
+    .price {
+      font-size: 21px;
+      font-weight: bold;
+      color: #8a674d;
+      margin-bottom: 18px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #8a674d;
+      color: white;
+      text-decoration: none;
+      padding: 11px 22px;
+      border-radius: 25px;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background: #6f503c;
+    }
+
+    .about {
+      background: #fffaf4;
+      text-align: center;
+      padding: 45px 20px;
+    }
+
+    .about p {
+      max-width: 700px;
+      margin: auto;
+      font-size: 17px;
+    }
+
+    footer {
+      background: #4b362f;
+      color: #eadccf;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 20px;
+    }
+
+    footer strong {
+      color: white;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 31px;
+      }
+
+      .hero h2 {
+        font-size: 27px;
+      }
+
+      nav a {
+        margin: 0 5px;
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+
 <body>
-  <h1>Dar Sarah</h1>
-  <h2>دار سارة</h2>
 
-  <p>Bienvenue dans mon univers.</p>
+  <header>
+    <h1>Dar Sarah</h1>
+    <h2>دار سارة</h2>
+    <p>Livres • Abayas & Khamîs • Muscs</p>
+  </header>
 
-  <h2>Nos catégories</h2>
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#livres">Livres</a>
+    <a href="#mode">Abayas & Khamîs</a>
+    <a href="#muscs">Muscs</a>
+  </nav>
 
-  <p>📚 Livres</p>
-  <p>🧕 Abayas & Khamîs</p>
-  <p>🌸 Muscs</p>
+  <section class="hero" id="accueil">
+    <h2>Bienvenue dans l'univers Dar Sarah</h2>
+    <p>
+      Un univers élégant, raffiné et spirituel,
+      pensé avec amour pour vous.
+    </p>
+  </section>
 
-  <h2>Mon livre</h2>
-  <p><strong>Mon chemin vers Allah</strong></p>
-  <p>13,90 €</p>
+  <section class="container" id="livres">
 
-  <button>Découvrir</button>
+    <h2 class="section-title">📚 Nos livres</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <div class="icon">📖</div>
+
+        <h3>Mon chemin vers Allah</h3>
+
+        <p>
+          Un livre pour accompagner votre cheminement
+          spirituel et votre réflexion.
+        </p>
+
+        <div class="price">13,90 €</div>
+
+        <a class="button" href="#contact">
+          Découvrir
+        </a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="container" id="mode">
+
+    <h2 class="section-title">🧕 Abayas & Khamîs</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <div class="icon">🧕</div>
+
+        <h3>Abayas</h3>
+
+        <p>
+          Des tenues élégantes et raffinées,
+          pensées pour votre quotidien.
+        </p>
+
+        <a class="button" href="#contact">
+          Découvrir
+        </a>
+      </div>
+
+      <div class="card">
+        <div class="icon">✨</div>
+
+        <h3>Khamîs</h3>
+
+        <p>
+          Une sélection sobre et élégante
+          pour homme.
+        </p>
+
+        <a class="button" href="#contact">
+          Découvrir
+        </a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="container" id="muscs">
+
+    <h2 class="section-title">🌸 Nos muscs</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <div class="icon">🌺</div>
+
+        <h3>Muscs</h3>
+
+        <p>
+          Découvrez notre univers de senteurs
+          délicates et raffinées.
+        </p>
+
+        <a class="button" href="#contact">
+          Découvrir
+        </a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="about">
+
+    <h2 class="section-title">🤎 À propos de Dar Sarah</h2>
+
+    <p>
+      Dar Sarah est un univers dédié aux livres,
+      à l'élégance et aux senteurs.
+      Chaque produit est choisi avec soin
+      pour vous offrir une expérience douce,
+      raffinée et spirituelle.
+    </p>
+
+  </section>
+
+  <section class="container" id="contact">
+
+    <h2 class="section-title">✨ Nous contacter</h2>
+
+    <div class="card">
+
+      <p>
+        Pour découvrir nos produits ou passer commande,
+        contactez-nous directement.
+      </p>
+
+      <br>
+
+      <a class="button" href="mailto:contact@darsarah.fr">
+        Nous contacter
+      </a>
+
+    </div>
+
+  </section>
+
+  <footer>
+
+    <p>
+      <strong>Dar Sarah | دار سارة</strong>
+    </p>
+
+    <p>
+      Livres • Abayas & Khamîs • Muscs
+    </p>
+
+    <p>
+      © 2026 Dar Sarah — Tous droits réservés
+    </p>
+
+  </footer>
+
 </body>
 </html>
+⚠️ Important ❤️
+Pour l'instant, ne change rien d'autre.
+
+Une fois le code collé :
+
+Fais défiler vers le haut.
+
+Appuie sur « Valider les modifications… ».
+
+Enregistre la modification.
+
+Attends environ 1 à 2 minutes.
+
+Retourne sur ton site.
+
+👉 Ne t'inquiète pas si le bouton « Nous contacter » ne fonctionne pas encore : j'ai mis une adresse provisoire qu'on remplacera ensuite par ton vrai moyen de contact.
+
+Quand tu as collé le code, envoie-moi une capture avant de valider. ❤️
+
+
+Je n'arrive pas à le copier envoi le moi en plus grand 
+
+Bien sûr ❤️ Sur téléphone, le grand code est difficile à sélectionner.
+
+Je t’ai préparé le code complet dans un fichier, beaucoup plus facile à ouvrir et copier :
+
+👉 Ouvrir le code complet de Dar Sarah
+
+Fais simplement ceci 🌸
+Appuie sur le lien ci-dessus.
+
+Ouvre le fichier.
+
+Sélectionne tout → Copier.
+
+Retourne dans GitHub, dans ton index.html.
+
+Efface l'ancien code.
+
+Colle le nouveau code.
+
+⚠️ Ne valide pas encore après le collage.
+Envoie-moi une capture de l'écran après avoir collé le code, et je te dirai exactement où appuyer. ❤️ 
+
+
+Dar_Sarah_nouveau_code.txt
+Document
+
+
+Aucun fichier choisi
+Bibliothèque
+/
+Dar_Sarah_nouveau_code.txt
+Dar_S…e.txt
+
+
+
+Boutique Dar Sarah | دار سارة
+
+
+Dar Sarah
+
+دار سارة
+
+Livres • Abayas & Khamîs • Muscs
+
+Accueil Livres Abayas & Khamîs Muscs
+
+Bienvenue dans l'univers Dar Sarah
+
+Un univers élégant, raffiné et spirituel, pensé avec amour pour vous.
+
+📚 Nos livres
+
+📖
+
+Mon chemin vers Allah
+
+Un livre pour accompagner votre cheminement spirituel et votre
+réflexion.
+
+13,90 €
+
+Découvrir
+
+🧕 Abayas & Khamîs
+
+🧕
+
+Abayas
+
+Des tenues élégantes et raffinées, pensées pour votre quotidien.
+
+Découvrir
+
+✨
+
+Khamîs
+
+Une sélection sobre et élégante pour homme.
+
+Découvrir
+
+🌸 Nos muscs
+
+🌺
+
+Muscs
+
+Découvrez notre univers de senteurs délicates et raffinées.
+
+Découvrir
+
+🤎 À propos de Dar Sarah
+
+Dar Sarah est un univers dédié aux livres, à l'élégance et aux senteurs.
+Chaque produit est choisi avec soin pour vous offrir une expérience
+douce, raffinée et spirituelle.
+
+✨ Nous contacter
+
+Pour découvrir nos produits ou passer commande, contactez-nous
